@@ -20,7 +20,9 @@
   <build_depend>xacro</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
-  <build_depend>message_generation</build_depend>  
+  <build_depend>message_generation</build_depend>
+  <build_depend>speed_publisher</build_depend>
+  <build_depend>rospy</build_depend>  
   <run_depend>amcl</run_depend>
   <run_depend>base_local_planner</run_depend>
   <run_depend>gmapping</run_depend>
@@ -33,7 +35,8 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
-
+  <run_depend>rospy</run_depend>
+  <run_depend>speed_publisher</run_depend>  
   <export>
 
   </export>
