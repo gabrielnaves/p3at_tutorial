@@ -15,6 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   roscpp
+  image_transport
+  cv_bridge
 )
 
 add_definitions(-std=c++11)
@@ -64,3 +66,6 @@ target_link_libraries(keyboard_input ${catkin_LIBRARIES})
 
 add_executable(keyboard_node src/keyboard_node.cpp)
 target_link_libraries(keyboard_node keyboard_input ${catkin_LIBRARIES})
+
+add_executable(color_identification_node src/color_identification.cpp)
+target_link_libraries(color_identification_node ${catkin_LIBRARIES})
