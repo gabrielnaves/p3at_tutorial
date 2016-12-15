@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#Movementation script
+
 import rospy
 from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
